@@ -366,6 +366,7 @@ function M.open_float(term)
 
   if opts.winblend then utils.wo_setlocal(win, "winblend", opts.winblend) end
   term:__set_options()
+  term_colors()
 end
 
 ---Updates the floating terminal size
